@@ -92,7 +92,7 @@ int main()
 	for (k = 0; k < n; ++k) {
 		p = 2;
 		i = k;
-		d = get_deep(n - k - 1); //(n - k - 1) % 2==0 ? n - k - 1 : n - k;
+		d = get_deep(n - k - 1); 
 		d_i = 0;
 		for (; n - k >= p / 2; i += p, ++d_i) {
 			if (i >= n - 1) {
